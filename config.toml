@@ -1,0 +1,418 @@
+baseURL = "https://portfoliohubs.github.io/drranabdelraouf/"
+languageCode = "en-us"
+title = "Dr. Rana Abdelraouf"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Rana Abdelraouf"
+    tagline = "Internship Doctor"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/57b2f1b6-0cd5-455a-abe9-00ece42b83c3"
+    profile_image_alt = "Profile photo of Dr. Rana Abdelraouf"
+    
+    [params.hero.current_position]
+      role = "Internship Doctor"
+      clinic = "Zagazig university Clinics"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Rana Abdelraouf"
+    doctor_name_ar = "دكتورة رنا عبدالرؤف"
+    site_name = "Dr. Rana Abdelraouf"
+    og_image = "https://github.com/user-attachments/assets/e55571f0-6134-4a71-896a-9307d90c7e51"
+    favicon_image = "https://github.com/user-attachments/assets/e55571f0-6134-4a71-896a-9307d90c7e51"
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Rana Raouf",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "دكتورة رنا عبدالرؤف",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتورة رنا عبدالرؤف",
+      "عيادة رنا عبدالرؤف",
+      "عيادة اسنان الزقازيق",
+      "رنا عبدالرؤف اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Surgery",
+      "Endo",
+      "cosmetic",
+      "Diagnosis",
+      "Fixed",
+      "protheses",
+      "pedo"
+    ]
+    
+    digital = [
+      "Photography",
+      "powerpoint",
+      "word",
+      "excel"
+    ]
+    
+    soft = [
+      "time management",
+      "patients management",
+      "pediatric management"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Zagazig university"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = ""
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = ""
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "graduated"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "اوبرتيف"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/45d3ecc4-6a14-43ae-adf2-2364f276e249"
+      alt = "class 2 in 4and 5 with rubber dam for completely isolate and deep margin in first premolar,  used saddle matrix"
+      description = "class 2 in 4and 5 with rubber dam for completely isolate and deep margin in first premolar,  used saddle matrix"
+      alt_ar = "صنعنا تجويف بعد ازاله التسوس من الضرسين وركبنا عازل لنضع الحشوة"
+      description_ar = "صنعنا تجويف بعد ازاله التسوس من الضرسين وركبنا عازل لنضع الحشوة"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "اندو / كراون"
+    category_ar = "اندو / كراون"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f229524c-bcea-4863-9bc1-ef98c567fb83"
+      alt = "Endo treatment for upper left 5 and apply fiber post and core. preparation the tooth for PFM crown."
+      description = "Endo treatment for upper left 5 and apply fiber post and core. preparation the tooth for PFM crown."
+      alt_ar = "حشو عصب للضرس وتركيب دعامة وعوضنا الجزء المفقود من الضرس وركبنا عليه طربوش"
+      description_ar = "حشو عصب للضرس وتركيب دعامة وعوضنا الجزء المفقود من الضرس وركبنا عليه طربوش"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "تشخيص"
+    category_ar = "تشخيص"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/45eaeeb9-f833-4b49-b54a-f11bcb96aa61"
+      alt = "scalpel surgery for treatment the racial Depigmintation"
+      description = "scalpel surgery for treatment the racial Depigmintation"
+      alt_ar = "تقشير اللثه لازاله التصبغات"
+      description_ar = "تقشير اللثه لازاله التصبغات"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "تشخيص"
+    category_ar = "تشخيص"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/41711cfc-1cca-4a3c-bd87-f30685e9b8dc"
+      alt = "Treatment the gingival hyperplasia (enlargement) by scalpel surgery"
+      description = "Treatment the gingival hyperplasia (enlargement) by scalpel surgery"
+      alt_ar = "قص لثه"
+      description_ar = "قص لثه"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "اوبريتيف"
+    category_ar = "اوبريتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/8ed66497-18da-4aa5-9e89-d96bb628bb92"
+      alt = "Class 3 in anterior teeth and class 2 in lower 4"
+      description = "Class 3 in anterior teeth and class 2 in lower 4"
+      alt_ar = "حشو تجميلي للاسنان الاماميه ف الفك السفلي والفك العلوي"
+      description_ar = "حشو تجميلي للاسنان الاماميه ف الفك السفلي والفك العلوي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "اندو"
+    category_ar = "اندو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/b3defa80-0cf4-4cc3-8504-00f875c9f039"
+      alt = "Endo treatment for lower 7 with tight canal,  final restoration class 2 with deep margin."
+      description = "Endo treatment for lower 7 with tight canal,  final restoration class 2 with deep margin."
+      alt_ar = "حشو عصب للضرس"
+      description_ar = "حشو عصب للضرس"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "اندو"
+    category_ar = "اندو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/220a47cd-3c2d-461d-b8a4-40aeaa355f10"
+      alt = "Endo treatment for lower 6 with 4 canal"
+      description = "Endo treatment for lower 6 with 4 canal"
+      alt_ar = "حشو عصب للضرس بناء علي الأشعة وشكوة المريض"
+      description_ar = "حشو عصب للضرس بناء علي الأشعة وشكوة المريض"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "اندو"
+    category_ar = "اندو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/7abb2ab2-7478-40fa-abae-abb3bcaeef91"
+      alt = "Endo treatment for upper 6"
+      description = "Endo treatment for upper 6"
+      alt_ar = "حشو عصب للضرس لطفله 11 سنه"
+      description_ar = "حشو عصب للضرس لطفله 11 سنه"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "بروسيزس"
+    category_ar = "بروسيزس"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ed0684cd-bc76-4c15-bd1a-c1088ef8c4a3"
+      alt = "Removable complete denture"
+      description = "Removable complete denture"
+      alt_ar = "تركيب طقم كامل متحرك"
+      description_ar = "تركيب طقم كامل متحرك"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "كراون"
+    category_ar = "كراون"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/480f8e55-4f01-4ee9-b7ec-bbaa9add4595"
+      alt = "Traditional dental bridge"
+      description = "Traditional dental bridge"
+      alt_ar = "تعويض ضرس مفقود عن طريق كوبري"
+      description_ar = "تعويض ضرس مفقود عن طريق كوبري"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "surgery"
+    category_ar = "surgery"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/035b3fa2-0319-4270-9971-2a3996b9edf0"
+      alt = "surgical extraction for remaining roots"
+      description = "surgical extraction for remaining roots"
+      alt_ar = "خلع جراحي للجدور"
+      description_ar = "خلع جراحي للجدور"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "اوبريتيف"
+    category_ar = "اوبريتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/267548fe-9e26-4425-86d3-f884865aace6"
+      alt = "class 1and 2 in upper 5and6  / and lower 5/6/7"
+      description = "class 1and 2 in upper 5and6  / and lower 5/6/7"
+      alt_ar = "حشو تجميلي للضروس"
+      description_ar = "حشو تجميلي للضروس"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+201119356148"
+    whatsapp = "+201119356148"
+    email = "raoufrana87@gmail.com"
+    instagram = ""
+    facebook = "https://www.facebook.com/share/18Sh5fR2hX/"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "Zagazig university Clinics currently and after that Minya Al-Qamh Hospital"
+      latitude = "30.588280727464202"
+      longitude = "31.483155005377732"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "دكتورة رنا عبدالرؤف جودة محمد"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتورة رنا عبدالرؤف"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "عيادات كليه طب اسنان جامعة الزقازيق"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحه",
+      "حشو عصب",
+      "حشو تجميلي",
+      "طب اسنان اطفال",
+      "تركيبات ثابته",
+      "تركيبات متحركه",
+      "التشخيص"
+    ]
+    
+    digital = [
+      "التصوير الطبي",
+      "powerpoint",
+      "Word",
+      "Excel"
+    ]
+    
+    soft = [
+      "ادارة الوقت",
+      "التواصل مع المريض",
+      "تهدئه المريض",
+      "تهدئه الاطفال"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة الزقازيق"
+    
+    [params.ar.education.master]
+      title = ""
+    
+    [params.ar.education.phd]
+      title = ""
+    
+    [[params.ar.education.timeline]]
+      event = "الدخول للكليه 2020"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج 2025"  
+
+  [params.ar.contact.location]
+    address = "عيادات كليه طب اسنان جامعة الزقازيق حاليا وفيما بعد مستشفي منيا القمح"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
