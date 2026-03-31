@@ -267,6 +267,34 @@ defaultContentLanguage = "en"
       description = "surgical extraction for remaining roots"
       alt_ar = "خلع جراحي للجدور"
       description_ar = "خلع جراحي للجدور"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/0f8ed252-c861-4a75-ac85-36c098860bae"
+      alt = "Extraction remaining root upper 1 & 3"
+      description = "Extraction remaining root upper 1 & 3"
+      alt_ar = "خلع بواقى جدور لاسنان فى الفك العلوى"
+      description_ar = "خلع بواقى جدور لاسنان فى الفك العلوى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/aafa7978-528d-4c10-b522-1c0f34842c0c"
+      alt = "Extraction lower ramaining 6 with periapical cyst"
+      description = "Extraction lower ramaining 6 with periapical cyst"
+      alt_ar = "خلع بواقى جدور لضرس فى الفك السفلى ومعه كيس دهنى"
+      description_ar = "خلع بواقى جدور لضرس فى الفك السفلى ومعه كيس دهنى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/a38339f5-30c6-49df-968b-42075ed052a5"
+      alt = "Extraction lower 8"
+      description = "Extraction lower 8"
+      alt_ar = "خلع ضرس العقل بالفك السفلى"
+      description_ar = "خلع ضرس العقل بالفك السفلى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/bf942969-2f64-41a4-8e7c-5294b4b14e7f"
+      alt = "Extraction lower ramaining 6"
+      description = "Extraction lower ramaining 6"
+      alt_ar = "خلع ضرس بالفك السفلى"
+      description_ar = "خلع ضرس بالفك السفلى"
       
   # Contact Section
   [params.contact]
